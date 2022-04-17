@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.row-2{
+    @apply grid gap-3 lg:grid-cols-2 grid-cols-1;
+}
+.row-3{
+    @apply grid gap-3 lg:grid-cols-3 md:grid-cols-2 md:justify-center grid-cols-1;
+}
+.row-4{
+    @apply grid gap-3 lg:grid-cols-4 md:grid-cols-2 md:items-center grid-cols-1;
+}
+.d-flex{
+    @apply flex flex-wrap justify-between;
+}
+.card{
+    @apply max-w-sm overflow-hidden shadow-lg rounded-lg;
+}
+.flex-col-center{
+    @apply flex flex-col justify-center items-center;
+}
